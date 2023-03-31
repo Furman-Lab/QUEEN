@@ -1,6 +1,6 @@
 # QUEEN_prediction
 QUEEN_prediction
-all_model_data column explanantion:
+Sup_table_II_all_model_data column explanantion:
 nsub: assigned qs from qsbio (nsub=number of subunits)
 1	2	3	4	5	6	7	8	10	12	14	24: columns representing the prediction probability to each qs class 
 code: pdb code with underscore of the serial number of qsbio for this complex
