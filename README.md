@@ -1,11 +1,11 @@
-# QUEEN_prediction
-QUEEN_prediction
-Sup_table_II_all_model_data column explanantion:
-nsub: assigned qs from qsbio (nsub=number of subunits)
-1	2	3	4	5	6	7	8	10	12	14	24: columns representing the prediction probability to each qs class 
-code: pdb code with underscore of the serial number of qsbio for this complex
-representative: used for clustering for separation of train/test sets. Determined by MMseqs	
-1_pred	2_pred	3_pred: The highest, second and third prediction (based on the prediction probabilities above)
+# QUEEN_prediction  
+QUEEN_prediction  
+Sup_table_II_all_model_data column explanantion:  
+nsub: assigned qs from qsbio (nsub=number of subunits)  
+1	2	3	4	5	6	7	8	10	12	14	24: columns representing the prediction probability to each qs class   
+code: pdb code with underscore of the serial number of qsbio for this complex  
+representative: used for clustering for separation of train/test sets. Determined by MMseqs	  
+1_pred	2_pred	3_pred: The highest, second and third prediction (based on the prediction probabilities above)  
 top_2:prediction based on the top 2 (1_pred, 2_pred) predictions
 pdb: pdb code without the qsbio complex numbering
 #uid: ecod internal domain unique identifier
